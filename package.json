@@ -1,0 +1,24 @@
+{
+  "name": "david-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azaritech/david-cli.git"
+  },
+  "author": "Azaritech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azaritech/david-cli/issues"
+  },
+  "homepage": "https://github.com/azaritech/david-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "david": "^10.1.0",
+    "process.argv": "^0.1.0"
+  }
+}
