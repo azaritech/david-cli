@@ -1,7 +1,7 @@
 {
   "name": "david-cli",
   "version": "0.1.2",
-  "description": "",
+  "description": "david cli with json and html export",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
