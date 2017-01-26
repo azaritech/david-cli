@@ -2,7 +2,10 @@
   "name": "david-cli",
   "version": "0.1.3",
   "description": "david cli with json and html export",
-  "main": "index.js",
+  "bin": {
+    "david-cli": "bin/david-cli.js"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +20,8 @@
   },
   "homepage": "https://github.com/azaritech/david-cli#readme",
   "dependencies": {
-    "chalk": "^1.1.3",
-    "david": "^10.1.0",
-    "process.argv": "^0.1.0"
+    "chalk": "1.1.3",
+    "david": "10.1.0",
+    "process.argv": "0.1.0"
   }
 }

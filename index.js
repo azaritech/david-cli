@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const david = require('david');
 const chalk = require('chalk');
 //const R = require('ramda');
@@ -27,6 +26,7 @@ if (manifest) {
   });
 }
 
+if (recursive)
 function cmpDependencies(current, stable) {
   if (current === stable) {
     return 'Green';
@@ -52,3 +52,4 @@ function listDependencies(deps) {
     );
   });
 }
+
