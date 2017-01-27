@@ -2,18 +2,15 @@
 
 ## Install
 ```bash
-npm install --save david-cli
+npm install -g david-cli
 ``` 
 or 
 ```bash
-yarn add david-cli
+yarn global add david-cli
 ``` 
 
-## Example
-```javascript
-require('david-cli');
-```
+## How to use it ?
 
 ```bash
-node index.js --manifest='path/to/package.json'
+david-cli --manifest='path/to/package.json'
 ``` 
