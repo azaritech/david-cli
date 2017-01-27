@@ -14,3 +14,6 @@ yarn global add david-cli
 ```bash
 david-cli --manifest='path/to/package.json'
 ``` 
+
+## Notice
+This release is identified as non-production ready.
