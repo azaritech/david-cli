@@ -1,6 +1,6 @@
 {
   "name": "david-cli",
-  "version": "0.1.4",
+  "version": "0.1.41",
   "description": "david cli with console output, json and html export",
   "bin": {
     "david-cli": "bin/david-cli.js"
