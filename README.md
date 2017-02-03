@@ -1,5 +1,5 @@
 # david-cli
-
+[![NPM](https://nodei.co/npm/david-cli.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/david-cli/)
 ## Install
 ```bash
 npm install -g david-cli
