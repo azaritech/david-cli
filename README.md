@@ -11,8 +11,14 @@ yarn global add david-cli
 
 ## How to use it ?
 
+### To check one file use '--package' flag
 ```bash
-david-cli --manifest='path/to/package.json'
+david-cli --package='path/to/package.json'
+``` 
+
+### To check multiple files use '--packages' flag
+```bash
+david-cli --packages=['path/to/package.json', 'path/to/package.json']
 ``` 
 
 ## Notice
