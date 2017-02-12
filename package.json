@@ -1,13 +1,12 @@
 {
   "name": "david-cli",
-  "version": "0.1.423",
+  "version": "0.2.0",
   "description": "david cli with console output, json and html export",
   "bin": {
     "david-cli": "bin/index.js"
   },
   "main": "lib/index.js",
   "scripts": {
-    "start": "bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
