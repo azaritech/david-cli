@@ -15,31 +15,31 @@ yarn global add david-cli
 
 ## How to use it ?
 
-### `To check one file`
+### To check one file:
 ####  `use '--package' flag`
 ```bash
 david-cli --package="path/to/package.json"
 ``` 
 
-### `To check multiple files`
+### To check multiple files:
 #### `Use '--packages' flag`
 ```bash
 david-cli --packages="path/to/package.json','path/to/package.json"
 ``` 
 
-### `Export to a JSON file`
+### Export to a JSON file:
 #### `Use  '--json' flag`
 ```bash
 david-cli --json='path/to/export/filename.json'
 ```
 
-### `Export to an HTML file`
+### Export to an HTML file:
 #### `Use '--html' flag`
 ```bash
 david-cli --html='path/to/export/filename.html'
 ```
 
-### `Displaying to CLI is the default behaviour`
+### Displaying to CLI is the default behaviour:
 #### `Do not show it`
 ```bash
 david-cli --cli=false
